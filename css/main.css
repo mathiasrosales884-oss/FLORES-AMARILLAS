@@ -1658,3 +1658,63 @@ h1 {
 
 /* Agregar más estilos según sea necesario */
 
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    min-height: 100dvh;
+    height: 100dvh;
+    overflow: hidden;
+    perspective: 800px;
+  }
+
+  #lyrics {
+    width: 90%;
+    margin-bottom: 48vh;
+    padding: 0 10px;
+    text-align: center;
+    font-size: clamp(12px, 4vw, 17px);
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+  }
+
+  .titulo {
+    width: 88%;
+    margin-bottom: 25vh;
+    padding: 0 8px;
+    font-size: clamp(15px, 4.2vw, 20px);
+    line-height: 1.45;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .flowers {
+    transform: scale(0.62);
+    transform-origin: center bottom;
+    margin-bottom: 0;
+  }
+
+  .flower__line {
+    height: 55vmin;
+  }
+
+  .flower__g-right .leaf {
+    max-height: 65vmin;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #lyrics {
+    margin-bottom: 50vh;
+    font-size: 12px;
+  }
+
+  .titulo {
+    width: 92%;
+    margin-bottom: 28vh;
+    font-size: 14px;
+  }
+
+  .flowers {
+    transform: scale(0.54);
+  }
+}
