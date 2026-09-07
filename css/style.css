@@ -100,7 +100,22 @@ body{
     font-size: 1rem;
     color: #111;
 }
-
+@media screen and (max-width:574px){
+    .greetings{
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description{
+        font-size: 2rem;
+    }
+    
+    .button a{
+        font-size: 1rem;
+    }
+}
+/* ===== DISEÑO RESPONSIVE PARA CELULARES ===== */
 @media screen and (max-width: 574px) {
     body {
         width: 100%;
@@ -135,4 +150,5 @@ body{
         padding: 10px 18px;
     }
 }
+
 
